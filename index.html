@@ -1,0 +1,542 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naša Priča ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- INTRO -->
+    <section class="section intro">
+        <p class="eyebrow">NAŠA PRIČA</p>
+        <h1>Dve godine<br>nas.</h1>
+        <p class="date">04.10.2024 — 04.10.2026</p>
+        <p class="hint">Listaj da vidiš dalje (znam da nećeš) ↓</p>
+    </section>
+
+
+    <!-- BEGINNING -->
+    <section class="section beginning">
+        <p class="eyebrow">CHAPTER 01</p>
+        <h2>Kako je sve krenulo.</h2>
+        <p>Volim te i ako ti mene mrziš.</p>
+
+        <img src="Slike/Pocetak Veze1.jpg" alt="One of our first photos">
+    </section>
+
+
+    <!-- ANIMALS -->
+    <section class="section animals">
+        <p class="eyebrow">CHAPTER 02</p>
+        <h2>Mi sa macama (isti font).</h2>
+
+        <div class="photo-grid">
+            <img src="Slike/Macke.jpg" alt="Our memory">
+            <img src="Slike/Macke2.jpg" alt="Our memory">
+        </div>
+    </section>
+
+
+    <!-- MUSIC -->
+    <section class="section music">
+
+        <p class="eyebrow">CHAPTER 03</p>
+
+        <h2>Pesme koje me podsećaju na nas.</h2>
+
+        <p>Pesme koje kad pustim odmah se setim 2024. godine.</p>
+
+
+        <div class="music-player">
+
+            <!-- NOW PLAYING -->
+            <div class="now-playing">
+
+                <div class="main-cover">
+                    <img
+                        id="main-cover"
+                        src="Slike/lilpeep.jpg"
+                        alt="Currently playing"
+                    >
+                </div>
+
+
+                <div class="main-song-info">
+
+                    <p class="now-label">NOW PLAYING</p>
+
+                    <h3 id="main-title">Falling Down</h3>
+
+                    <p id="main-artist">Lil Peep</p>
+
+
+                    <div class="progress-container">
+
+                        <div class="progress-bar">
+                            <div
+                                class="progress"
+                                id="progress"
+                            ></div>
+                        </div>
+
+
+                        <div class="time">
+
+                            <span id="current-time">
+                                0:00
+                            </span>
+
+                            <span id="total-time">
+                                0:00
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="main-play"
+                        id="main-play"
+                    >
+                        ▶
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PLAYLIST -->
+            <div class="playlist">
+
+
+                <!-- 01 FALLING DOWN -->
+                <div
+                    class="playlist-song active"
+                    data-title="Falling Down"
+                    data-artist="Lil Peep"
+                    data-cover="Slike/lilpeep.jpg"
+                    data-video="-jRKsiAOAA8"
+                >
+
+                    <span>01</span>
+
+                    <img
+                        src="Slike/lilpeep.jpg"
+                        alt="Falling Down"
+                    >
+
+                    <div>
+
+                        <h4>Falling Down</h4>
+
+                        <p>Lil Peep</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 02 TUŽNE LJUBAVI -->
+                <div
+                    class="playlist-song"
+                    data-title="Tužne ljubavi"
+                    data-artist="Buč Kesidi"
+                    data-cover="Slike/tuzne.png"
+                    data-video="g5yypa5m62g"
+                >
+
+                    <span>02</span>
+
+                    <img
+                        src="Slike/tuzne.png"
+                        alt="Tužne ljubavi"
+                    >
+
+                    <div>
+
+                        <h4>Tužne ljubavi</h4>
+
+                        <p>Buč Kesidi</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 03 TOO MANY NIGHTS -->
+                <div
+                    class="playlist-song"
+                    data-title="Too Many Nights"
+                    data-artist="Metro Boomin"
+                    data-cover="Slike/boom.jpg"
+                    data-video="NyTkaQHdySM"
+                >
+
+                    <span>03</span>
+
+                    <img
+                        src="Slike/boom.jpg"
+                        alt="Too Many Nights"
+                    >
+
+                    <div>
+
+                        <h4>Too Many Nights</h4>
+
+                        <p>Metro Boomin</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 04 AMERICAN DAWN -->
+                <div
+                    class="playlist-song"
+                    data-title="American Dawn"
+                    data-artist="Her"
+                    data-cover="Slike/her.png"
+                    data-video="c4gBe4Ob8uA"
+                >
+
+                    <span>04</span>
+
+                    <img
+                        src="Slike/her.png"
+                        alt="American Dawn"
+                    >
+
+                    <div>
+
+                        <h4>American Dawn</h4>
+
+                        <p>Her</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 05 YOU ARE THE RIGHT ONE -->
+                <div
+                    class="playlist-song"
+                    data-title="You Are The Right One"
+                    data-artist="Sports"
+                    data-cover="Slike/sports.png"
+                    data-video="Y_hdQXQfsNg"
+                >
+
+                    <span>05</span>
+
+                    <img
+                        src="Slike/sports.png"
+                        alt="You Are The Right One"
+                    >
+
+                    <div>
+
+                        <h4>You Are The Right One</h4>
+
+                        <p>Sports</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TRAVELS -->
+    <section class="section travels">
+
+        <p class="eyebrow">CHAPTER 04</p>
+
+        <h2>Negde van Srbije.</h2>
+
+        <p>
+          Nije bitno gde si, nego s kim si.
+        </p>
+
+        <div class="photo-grid">
+
+            <img
+                src="Slike/amsterdam.jpg"
+                alt="Our trip to Amsterdam"
+            >
+
+            <img
+                src="Slike/Prag.jpg"
+                alt="Our trip to Prague"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- OTHER MEMORIES -->
+    <section class="section memories">
+
+        <p class="eyebrow">CHAPTER 05</p>
+
+        <h2>Par Random slika.</h2>
+
+        <p>
+            Obični trenuci koji s tobom nikada nisu bili obični.
+        </p>
+
+        <div class="photo-grid">
+
+            <img
+                src="Slike/BG.jpg"
+                alt="Our memory"
+            >
+
+            <img
+                src="Slike/Prvi put u turici.jpg"
+                alt="Our memory"
+            >
+
+            <img
+                src="Slike/slika1.jpg"
+                alt="Our memory"
+            >
+
+            <img
+                src="Slike/Lepa.jpg"
+                alt="Our memory"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- TODAY -->
+    <section class="section today">
+
+        <p class="eyebrow">CHAPTER 06</p>
+
+        <h2>Poslednja zajednička slika.</h2>
+
+        <img
+            src="Slike/POslednja SLika.jpg"
+            alt="Our latest photo together"
+        >
+
+        <p>
+            Dve godine kasnije, a ti si i dalje moja omiljena osoba.
+        </p>
+
+    </section>
+
+
+    <!-- SPECIAL MEMORY -->
+    <section class="section special">
+
+        <p class="eyebrow">CHAPTER 07</p>
+
+        <h2>Specijalna memorija.</h2>
+
+        <p>Kad sam prvi put držao Nika.</p>
+
+        <img
+            src="Slike/PRva slika sa nikom.jpg"
+            alt="Our special moment"
+        >
+
+    </section>
+
+
+    <!-- FINAL SPECIAL PHOTO -->
+    <section class="section special">
+
+        <p class="eyebrow">CHAPTER 08</p>
+
+        <h2>I za kraj. ❤️</h2>
+
+        <p>Slika tebe i pigara, psa kog nikad necemo zaboraviti. </p>
+
+        <img
+            src="Slike/Pigaro.jpg"
+            alt="Our special moment"
+        >
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+    <section class="section countdown-section">
+
+        <p class="eyebrow">CHAPTER 09</p>
+
+        <h2>Dok te ne vidim opet. ❤️</h2>
+
+        <p>Još malo cekamo.</p>
+
+
+        <div class="countdown">
+
+            <div class="countdown-box">
+
+                <span id="days">00</span>
+
+                <small>DAYS</small>
+
+            </div>
+
+
+            <div class="countdown-box">
+
+                <span id="hours">00</span>
+
+                <small>HOURS</small>
+
+            </div>
+
+            <div class="countdown-box">
+
+                <span id="minutes">00</span>
+
+                <small>MINUTES</small>
+
+            </div>
+
+
+            <div class="countdown-box">
+
+                <span id="seconds">00</span>
+
+                <small>SECONDS</small>
+
+            </div>
+
+        </div>
+
+
+        <p class="countdown-date">
+            11.10.2026 ❤️
+        </p>
+
+    </section>
+
+<!-- LETTER -->
+<section class="section letter">
+
+    <p class="eyebrow">Za kraj</p>
+
+    <h2>Za moju bebaru.</h2>
+
+    <!-- NOTE -->
+    <div class="letter-note" id="letter-note">
+
+        <div class="note-front">
+            <span class="note-icon">📝</span>
+            <h3>Jedna mala poruka za tebe...</h3>
+            <p>Klikni da je otvoriš ❤️</p>
+        </div>
+
+        <div class="note-content">
+
+            <p class="letter-date">
+                04.10.2026
+            </p>
+
+            <p>
+                Pre dve godine nisam ni slutio da jedna osoba može
+                postati toliko veliki deo mog života.
+            </p>
+
+            <p>
+                Od tada smo zajedno prošli kroz toliko trenutaka, mesta, smeha,
+                avantura i uspomena koje ne bih menjao ni za šta.
+            </p>
+
+            <p>
+                Hvala ti što si bila tu kroz sve to.
+                Hvala ti za svaki mali trenutak, podršku,
+                svaki osmeh i svaku uspomenu koju smo zajedno stvorili.
+            </p>
+
+            <p>
+                Život je nepredvidljiv i ne znam šta me čeka u budućnosti,
+                ali nadam se da je sa tobom.
+            </p>
+
+            <p>
+                Za sve što smo već zajedno prošli
+                i za sve što nas još čeka. ❤️
+            </p>
+
+            <p class="letter-ending">
+                Volim te. ❤️
+            </p>
+
+            <p class="signature">
+                Velika Bebara
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <h1>
+            Srećna godišnjica ❤️
+        </h1>
+
+    </section>
+
+
+    <!-- FINAL QUESTION -->
+    <section class="section question-section">
+
+        <p class="eyebrow">Poslednja stvar</p>
+
+        <h2>Da li me voliš? ❤️</h2>
+
+
+        <div class="question-buttons">
+
+            <button id="yes-button">
+                DA ❤️
+            </button>
+
+            <button id="no-button">
+                NE 💔
+            </button>
+
+        </div>
+
+
+        <div id="answer-area"></div>
+
+    </section>
+
+
+    <!-- HIDDEN YOUTUBE PLAYER -->
+    <div id="youtube-player"></div>
+
+
+    <!-- YOUTUBE API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- YOUR JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
